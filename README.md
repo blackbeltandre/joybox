@@ -1,0 +1,1 @@
+npm start or pm2 start server.js 
