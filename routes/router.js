@@ -5,4 +5,5 @@ var web_route = require('../controller/index');
 module.exports = function(router) {
     //website
     router.get('/', web_route.index);
+    router.post('/borrow', web_route.borrow);
 }

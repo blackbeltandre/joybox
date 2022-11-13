@@ -7,3 +7,7 @@ exports.getBooks = async function getBooks(req, res) {
   const data = await response.json();
   return data;
 };
+
+exports.borrowBooks = async function borrowBooks(body) {
+    return body;
+  };
